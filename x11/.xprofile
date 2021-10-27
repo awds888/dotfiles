@@ -13,6 +13,9 @@ feh --bg-fill --randomize ~/Pictures/wallpapers/* &
 # Network Manager Applet
 nm-applet --indicator &
 
+# Notification center
+deadd-notification-center &
+
 # Qv2ray
 qv2ray &
 
@@ -35,11 +38,6 @@ export BROWSER="google-chrome-stable"
 # For QT Themes
 export QT_QPA_PLATFORMTHEME=qt5ct
 
-# XDG Paths
-# export XDG_CONFIG_HOME=$HOME/.config
-# export XDG_CACHE_HOME=$HOME/.cache
-# export XDG_DATA_HOME=$HOME/.local/share
-
 # Compositor
 picom -b
 
@@ -52,14 +50,17 @@ flameshot &
 # Bluetooth systray icon
 blueman-applet &
 
+# Save your eye
+redshift-gtk &
+
 # helps with puls audio
 # pasystray &
 
 # Fcitx
-fcitx &
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS="@im=fcitx"
+fcitx &
 
 # remap caps to escape
 setxkbmap -option caps:escape
