@@ -14,8 +14,8 @@ Xft.dpi: 96
 Xft.antialias: true      
 Xft.hinting: true
 Xft.rgba: rgb 
-Xft.autohint: false
-Xft.hintstyle: hintslight
+Xft.autohint: true
+Xft.hintstyle: hintfull
 Xft.lcdfilter: lcddefault
 
 xrdb -merge ~/.Xresources
