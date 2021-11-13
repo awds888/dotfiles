@@ -71,7 +71,7 @@ export ZSH="/home/lc/.oh-my-zsh"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git sudo colored-man-pages zsh-autosuggestions zsh-syntax-highlighting extract git-open)
+plugins=(git sudo colored-man-pages zsh-autosuggestions fast-syntax-highlighting extract git-open)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -110,7 +110,7 @@ zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 zplug "zsh-users/zsh-completions"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "plugins/extract", from:oh-my-zsh
-zplug "zdharma/fast-syntax-highlighting"
+# zplug "zdharma/fast-syntax-highlighting", from:github
 zplug "dracula/zsh", as:theme
 
 
