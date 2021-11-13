@@ -1,2 +1,11 @@
-This is my personal dotfiles repo. Anyone is free to use, But no safty guaranty can be made.
-Any good advice is welcome.
+# This is my personal dotfiles repo. Anyone is free to use, But no safty guaranty can be made.
+# Any good advice is welcome.
+
+
+# There is additional setup
+# Zplug
+curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
+
+# Zsh Plugin: fast-syntax-highlighting
+git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
+
