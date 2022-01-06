@@ -1,7 +1,4 @@
-[user]
-	name = awds888
-	email = 358719398@qq.com
-[credential]
-	helper = store
-[pull]
-	rebase = true
+[core]
+	excludesfile = ~/.gitignore.global
+[include]
+    path = ~/.gitconfig.user

@@ -1,0 +1,4 @@
+# -------------------------------- MyDotfile ------------------------------------
+i3/.config/i3/themes/*
+nvim/.config/nvim/autoload/*
+ranger/.config/ranger/plugins/*
