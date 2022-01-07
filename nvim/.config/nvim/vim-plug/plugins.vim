@@ -19,4 +19,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Airline
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
+    " Stable version of coc
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    " Keeping up to date with master
+    Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 call plug#end()
