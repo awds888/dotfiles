@@ -38,6 +38,7 @@ alias vim='nvim'
 alias vi='nvim'
 alias lg='lazygit'
 alias df='df -ahT'
+alias pwd='pwd -P'
 
 # Key binds
 bindkey	"^[[A"		history-substring-search-up
@@ -51,7 +52,7 @@ bindkey '^ ' autosuggest-accept
 bindkey '^f' autosuggest-accept
 
 # Path
-export PATH="/Users/lc/bin/:/usr/local/sbin:$PATH"
+export PATH="$HOME/bin/:/usr/local/sbin:$PATH"
 export PATH="/usr/local/anaconda3/bin:$PATH"
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 eval "`fnm env`"
