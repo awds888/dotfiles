@@ -2,3 +2,7 @@
 	excludesfile = ~/.gitignore.global
 [include]
     path = ~/.gitconfig.user
+[color]
+	diff = auto
+	status = auto
+	branch = auto
