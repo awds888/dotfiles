@@ -24,7 +24,7 @@ nnoremap <S-TAB> :bprevious<CR>
 " Alternate way to save
 nnoremap <C-s> :w<CR>
 " Alternate way to quit
-nnoremap <C-Q> :wq!<CR>
+nnoremap <C-Q> :q<CR>
 " Use control-c instead of escape
 nnoremap <C-c> <Esc>
 " <TAB>: completion.
@@ -42,3 +42,4 @@ nnoremap <C-l> <C-w>l
 
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
+
