@@ -55,11 +55,11 @@ bindkey '^f' autosuggest-accept
 export PATH="$HOME/bin/:/usr/local/sbin:$PATH"
 export PATH="/usr/local/anaconda3/bin:$PATH"
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export PATH="$HOME/.rbenv/bin:$HOME/.fnm:$HOME/.pyenv:$PATH"
 eval "`fnm env`"
 eval "$(rbenv init -)"
 eval "$(pyenv init -)"
 #eval "$(pyenv virtualenv-init -)"
-export PATH="$HOME/.rbenv/bin:$PATH"
 export GTAGSLABEL=pygments
 export PATH="/usr/local/opt/curl/bin:$PATH"
 #export HTTP_PROXY=socks5://127.0.0.1:7890
