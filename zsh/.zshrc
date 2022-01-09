@@ -61,7 +61,7 @@ eval "$(pyenv init -)"
 #eval "$(pyenv virtualenv-init -)"
 export PATH="$HOME/.rbenv/bin:$PATH"
 export GTAGSLABEL=pygments
-#export PATH="/usr/local/opt/curl/bin:$PATH"
+export PATH="/usr/local/opt/curl/bin:$PATH"
 #export HTTP_PROXY=socks5://127.0.0.1:7890
 #export HTTPS_PROXY=socks5://127.0.0.1:7890
 export HOMEBREW_CORE_GIT_REMOTE=https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git
