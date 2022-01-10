@@ -40,6 +40,7 @@ alias vi='nvim'
 alias lg='lazygit'
 alias df='df -ahT'
 alias pwd='pwd -P'
+alias li='ls -laiF --color=auto'
 
 # Key binds
 bindkey	"^[[A"		history-substring-search-up
