@@ -12,6 +12,7 @@ export EDITOR='nvim'
 export GIT_EDITOR="${EDITOR}"
 
 # History config
+export HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 setopt append_history
@@ -55,6 +56,7 @@ bindkey '^f' autosuggest-accept
 export PATH="$HOME/bin/:/usr/local/sbin:$PATH"
 export PATH="/usr/local/anaconda3/bin:$PATH"
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:${MANPATH}"
 export PATH="$HOME/.rbenv/bin:$HOME/.fnm:$HOME/.pyenv:$PATH"
 eval "`fnm env`"
 eval "$(rbenv init -)"
