@@ -7,6 +7,7 @@ fi
 
 source ~/.zplug/init.zsh
 # Env
+export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export EDITOR='nvim'
 export GIT_EDITOR="${EDITOR}"
@@ -30,9 +31,12 @@ setopt interactivecomments
 zstyle ':completion:*' rehash true
 
 # Alias
-alias l='ls -alhF --color=auto'
-alias ll='ls -alhF --color=auto'
-alias lu='cd ..;ls -alhF --color=auto'
+alias l='exa -abgFHl --git --time-style=long-iso --group-directories-first'
+alias ll='exa -abgFhHliS --git --time-style=long-iso --group-directories-first'
+alias lsm='exa -abgFhHli --git --time-style=long-iso --sort=modified'
+alias lsc='exa -abgFhHli --git --time-style=long-iso --changed --sort=changed'
+alias lt='exa -abgFHlT --git --time-style=long-iso --group-directories-first -L'
+alias lu='cd ..;exa -abgFHl --git --time-style=long-iso --group-directories-first'
 alias tls='tmux ls'
 alias ta='tmux a -t'
 alias vim='nvim'
