@@ -25,4 +25,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
     " Ranger plugin
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}    
+    Plug 'tpope/vim-commentary'
 call plug#end()
