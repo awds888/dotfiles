@@ -23,4 +23,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Keeping up to date with master
     Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+    " Ranger plugin
+    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}    
 call plug#end()
