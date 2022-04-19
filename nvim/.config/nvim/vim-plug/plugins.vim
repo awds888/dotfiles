@@ -26,4 +26,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Ranger plugin
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}    
     Plug 'tpope/vim-commentary'
+    Plug 'mhinz/vim-startify'
 call plug#end()
