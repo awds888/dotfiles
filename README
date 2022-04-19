@@ -18,10 +18,9 @@ cd fonts
 cd ..
 rm -rf fonts
 
-# vim plugins install
-
 # node support
 npm i -g yarn
+npm install -g neovim
 # python support
 pip install pynvim
 
