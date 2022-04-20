@@ -28,4 +28,4 @@ pip install pynvim
 :PlugInstall
 # Coc env setup in coc directory
 yarn install
-CocInstall coc-python coc-go coc-clangd coc-marketplace coc-xml coc-html coc-toml coc-yaml coc-java coc-json coc-highlight coc-css @yaegassy/coc-nginx coc-snippets coc-vimlsp
+CocInstall coc-python coc-go coc-clangd coc-marketplace coc-xml coc-html coc-toml coc-yaml coc-java coc-json coc-highlight coc-css @yaegassy/coc-nginx coc-snippets coc-vimlsp coc-explorer
