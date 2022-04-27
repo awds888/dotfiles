@@ -84,7 +84,7 @@ zplug "zsh-users/zsh-history-substring-search"
 zplug "plugins/colored-man-pages", from:oh-my-zsh
 zplug "plugins/sudo", from:oh-my-zsh
 zplug 'plugins/extract', from:oh-my-zsh
-zplug 'plugins/autojump', from:oh-my-zsh
+zplug "wting/autojump"
 zplug "lib/completion", from:oh-my-zsh
 zplug "zsh-users/zsh-completions"
 zplug "junegunn/fzf"
