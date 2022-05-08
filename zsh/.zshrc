@@ -39,8 +39,8 @@ alias lt='exa -abgFHlT --git --time-style=long-iso --group-directories-first -L'
 alias lu='cd ..;exa -abgFHl --git --time-style=long-iso --group-directories-first'
 alias tls='tmux ls'
 alias ta='tmux a -t'
-alias vim='nvim'
-alias vi='nvim'
+alias vim='lvim'
+alias vi='lvim'
 alias lg='lazygit'
 alias df='df -ahT'
 alias pwd='pwd -P'
@@ -58,7 +58,7 @@ bindkey '^ ' autosuggest-accept
 bindkey '^f' autosuggest-accept
 
 # Path
-export PATH="$HOME/bin/:/usr/local/sbin:$PATH"
+export PATH="$HOME/bin/:$HOME/.local/bin:/usr/local/bin:/usr/local/sbin:$PATH"
 export PATH="/usr/local/anaconda3/bin:$PATH"
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:${MANPATH}"
