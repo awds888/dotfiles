@@ -39,16 +39,15 @@ alias lt='exa -abgFHlT --git --time-style=long-iso --group-directories-first -L'
 alias lu='cd ..;exa -abgFHl --git --time-style=long-iso --group-directories-first'
 alias tls='tmux ls'
 alias ta='tmux a -t'
-alias vim='lvim'
-alias vi='lvim'
 alias lg='lazygit'
 alias df='df -ahT'
 alias pwd='pwd -P'
 alias li='ls -laiF --color=auto'
+alias vim='lvim'
 
 # Key binds
-bindkey	"^[[A"		history-substring-search-up
-bindkey	"^[[B"		history-substring-search-down
+# bindkey	"^[[A"		history-substring-search-up
+# bindkey	"^[[B"		history-substring-search-down
 bindkey "\e[1;5D"	backward-word
 bindkey "\e[1;5C"	forward-word
 bindkey  "^[[H"		beginning-of-line
@@ -59,7 +58,6 @@ bindkey '^f' autosuggest-accept
 
 # Path
 export PATH="$HOME/bin/:$HOME/.local/bin:/usr/local/bin:/usr/local/sbin:$PATH"
-export PATH="/usr/local/anaconda3/bin:$PATH"
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:${MANPATH}"
 export PATH="$HOME/.rbenv/bin:$HOME/.fnm:$HOME/.pyenv/bin:$PATH"
@@ -71,7 +69,6 @@ export GTAGSLABEL=pygments
 export PATH="/usr/local/opt/curl/bin:$PATH"
 export HTTP_PROXY=socks5://127.0.0.1:7890
 export HTTPS_PROXY=socks5://127.0.0.1:7890
-export HOMEBREW_CORE_GIT_REMOTE=https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git
 
 # Zplug Install
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
@@ -87,9 +84,6 @@ zplug 'plugins/extract', from:oh-my-zsh
 zplug "wting/autojump"
 zplug "lib/completion", from:oh-my-zsh
 zplug "zsh-users/zsh-completions"
-zplug "junegunn/fzf"
-zplug "junegunn/fzf-bin", from:gh-r, as:command, rename-to:fzf, use:"*linux*amd64*"
-zplug "sharkdp/fd", from:gh-r, as:command, rename-to:fd, use:"*x86_64-unknown-linux-gnu.tar.gz"
 source $ZPLUG_HOME/repos/junegunn/fzf/shell/completion.zsh
 source $ZPLUG_HOME/repos/junegunn/fzf/shell/key-bindings.zsh
 
