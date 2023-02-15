@@ -67,8 +67,8 @@ eval "$(pyenv init -)"
 #eval "$(pyenv virtualenv-init -)"
 export GTAGSLABEL=pygments
 export PATH="/usr/local/opt/curl/bin:$PATH"
-export HTTP_PROXY=socks5://127.0.0.1:7890
-export HTTPS_PROXY=socks5://127.0.0.1:7890
+#export HTTP_PROXY=socks5://127.0.0.1:7890
+#export HTTPS_PROXY=socks5://127.0.0.1:7890
 
 # Zplug Install
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
