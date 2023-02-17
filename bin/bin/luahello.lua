@@ -65,3 +65,15 @@ function fibsum(n)
   if n<2 then return 1 end
   return fibsum(n-2)+fibsum(n-1)
 end
+
+boy ={age=28,name="david",ishandsome=true}
+
+arr = {"string", 100, "haoel", function() print("function in array") end}
+
+for i = 1, #arr do
+  print(arr[i])  
+end
+
+for k, v in ipairs(arr) do
+ print(k,v) 
+end
