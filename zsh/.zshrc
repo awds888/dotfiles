@@ -84,19 +84,11 @@ zplug 'plugins/extract', from:oh-my-zsh
 zplug "wting/autojump"
 zplug "lib/completion", from:oh-my-zsh
 zplug "zsh-users/zsh-completions"
-source $ZPLUG_HOME/repos/junegunn/fzf/shell/completion.zsh
-source $ZPLUG_HOME/repos/junegunn/fzf/shell/key-bindings.zsh
 
 # -----------App Configuration--------------
 ## Zsh Theme Powerlevel10k
 ## To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-## FZF
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-# fzf settings. Uses sharkdp/fd for a faster alternative to `find`.
-FZF_CTRL_T_COMMAND='fd --type f --hidden --exclude .git --exclude .cache'
-FZF_ALT_C_COMMAND='fd --type d --hidden --exclude .git'
 
 ## Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
