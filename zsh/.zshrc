@@ -57,9 +57,8 @@ bindkey '^ ' autosuggest-accept
 bindkey '^f' autosuggest-accept
 
 # Path
-export PATH="$HOME/bin/:$HOME/.local/bin:/usr/local/bin:/usr/local/sbin:$PATH"
-export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
-export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:${MANPATH}"
+export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:/opt/homebrew/bin:$HOME/bin/:$HOME/.local/bin:/usr/local/bin:/usr/local/sbin:$PATH"
+export MANPATH="/opt/homebrew/opt/coreutils/libexec/gnuman:${MANPATH}"
 export PATH="$HOME/.rbenv/bin:$HOME/.fnm:$HOME/.pyenv/bin:$PATH"
 eval "`fnm env`"
 eval "$(rbenv init -)"
