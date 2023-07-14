@@ -9,7 +9,7 @@ source ~/.zplug/init.zsh
 # Env
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
-export EDITOR='nvim'
+export EDITOR='vim'
 export GIT_EDITOR="${EDITOR}"
 
 # History config
